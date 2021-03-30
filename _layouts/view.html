@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html  lang="ko">
+    <head>
+        {%- include head.html -%}
+    </head>
+    <body>
+        {%- include header.html -%}
+        <div class="content">
+
+            <div class="content__wrap">
+                
+                {%- include banner.html -%}
+
+                <section class="content__layout content__layout--detail">
+                    {{ content }}
+
+                    {%- include category.html -%}
+                </section>
+                
+            </div>
+        </div>
+        
+        {%- include footer.html -%}
+    </body>
+</html>

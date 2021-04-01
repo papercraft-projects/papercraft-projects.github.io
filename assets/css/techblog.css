@@ -230,7 +230,9 @@ input[type=number]::-webkit-outer-spin-button {
 .content__sub .comments:before,
 .header__logo {
     background-image: url(/assets/images/p-logo.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: 35%;
+
 }
 
 .content__sub .comments:before {
@@ -263,7 +265,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 20px;
     background-position: -3px -3px;
     width: 104px;
-    height: 24px
+    height: 45px;
 }
 
 .header__logo--techblog {

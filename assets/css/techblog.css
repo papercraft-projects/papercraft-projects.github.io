@@ -231,7 +231,7 @@ input[type=number]::-webkit-outer-spin-button {
 .header__logo {
     background-image: url(/assets/images/p-logo.png);
     background-repeat: no-repeat;
-    background-size: 35%;
+    background-size: 37%;
 
 }
 
@@ -262,10 +262,10 @@ input[type=number]::-webkit-outer-spin-button {
 .header__logo {
     float: left;
     display: block;
-    margin-top: 20px;
-    background-position: -3px -3px;
+    margin-top: 10px;
+    background-position: -3px 5px;
     width: 104px;
-    height: 45px;
+    height: 50px;
 }
 
 .header__logo--techblog {

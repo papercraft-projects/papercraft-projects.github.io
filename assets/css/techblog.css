@@ -231,7 +231,7 @@ input[type=number]::-webkit-outer-spin-button {
 .header__logo {
     background-image: url(/assets/images/p-logo.png);
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: cover;
 
 }
 
